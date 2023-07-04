@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  #container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #add-task {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  #new-task {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  #add-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  .delete-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .success-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #DFF0D8;
+    color: #3C763D;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .completed {
+    text-decoration: line-through;
+  }
